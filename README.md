@@ -1,29 +1,40 @@
-# vue-project-2
+# Vue.js Job Board
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple SPA built with Vue.js (Composition API), Tailwind CSS, and JSON Server. This project allows users to list, add, edit, and delete developer jobs while practicing Vue.js concepts like `v-model`, `v-if`, `v-for`, lifecycle hooks, and more.
 
-## Recommended IDE Setup
+## Features
+- List available developer jobs
+- Add new job listings
+- Edit existing job listings
+- Delete job listings
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Installation
 
-## Customize configuration
+1. **Clone the repository:**
+   ```sh
+   git clone <your-repo-url>
+   cd <your-project-folder>
+   ```
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-## Project Setup
+3. **Run the JSON Server:**
+   ```sh
+   npm run server
+   ```
 
-```sh
-npm install
-```
+4. **Run the Vue app:** (in another terminal)
+   ```sh
+   npm run dev
+   ```
 
-### Compile and Hot-Reload for Development
+## Tech Stack
+- Vue.js (Composition API)
+- Tailwind CSS
+- JSON Server
 
-```sh
-npm run dev
-```
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
