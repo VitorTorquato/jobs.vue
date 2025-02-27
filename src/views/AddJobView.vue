@@ -43,7 +43,7 @@
                     router.push(`/jobs/${res.data.id}`)
                 }catch(error){
                   console.error("Something went wrong to add job" , error)
-                  toast.error(`Toast was not added`)
+                  toast.error(`Job not added`)
                 }
         }
 
